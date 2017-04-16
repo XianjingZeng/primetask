@@ -17,14 +17,25 @@ private:
 
 
 public:
+	Person() {}
+	Person(const string &name, const string &add) :strName(name), strAddress(add) {	}
+	Person(istream &is) { is >> *this; }
+
+
 	string getName() const{ return strName; }
 	string getAdd() const { return strAddress; }
 
 	istream& read(istream&, Person&);
 	ostream& print(ostream&, const Person&);
+
+	friend istream & operator>>(istream &, Person &);
 };
 
-
+istream & operator >> (istream &is, Person &p)
+{
+	is >> p.strName >> p.strAddress;
+	return is;
+}
 
 istream& Person::read(istream &is, Person &p)
 {
