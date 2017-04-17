@@ -29,12 +29,15 @@ public:
 	istream& read(istream&, Sales_data&);
 	ostream& print(ostream&, const Sales_data&);
 
+	double avg_price() const;
+
 private:
 	string bookNo;
 	unsigned units_sold = 0;
 	double sellingprice = 0.0;
 	double saleprice = 0.0;
 	double discount = 0.0;
+	double revenue;
 };
 
 Sales_data::Sales_data(const string &book, const unsigned num,
@@ -115,4 +118,16 @@ ostream& Sales_data::print(ostream &os, const Sales_data &s)
 		<< "discount: " << s.discount << endl
 		<< "***************" << endl;
 	return os;
+}
+
+inline double Sales_data::avg_price() const
+{
+	if (units_sold != 0)
+	{
+		return revenue / units_sold;
+	}
+	else
+	{
+		return 0;
+	}
 }
