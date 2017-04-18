@@ -1,6 +1,6 @@
-//#include "Sales_data.h"
-//#include "Screen.h"
-#include "Window_mgr.h"
+//#include "chapter7/Sales_data.h"
+//#include "chapter7/Screen.h"
+#include "chapter7/Window_mgr.h"
 
 int main()
 {

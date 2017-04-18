@@ -15,24 +15,24 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Sales_data.h">
+    <ClInclude Include="chapter7\Person.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="Person.h">
+    <ClInclude Include="chapter7\Sales_data.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="Screen.h">
+    <ClInclude Include="chapter7\Screen.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="Window_mgr.h">
+    <ClInclude Include="chapter7\Window_mgr.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="prime.cpp">
+    <ClCompile Include="chapter7\Sales_data.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Sales_data.cpp">
+    <ClCompile Include="prime.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
