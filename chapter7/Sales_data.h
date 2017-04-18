@@ -12,7 +12,7 @@ using namespace std;
 class Sales_data
 {
 public:
-	Sales_data() {}
+	Sales_data() :Sales_data(""){}
 	Sales_data(const string &book) :bookNo(book) {}
 	Sales_data(const string &book, unsigned num,
 		double sellp, double salep);
@@ -23,11 +23,12 @@ public:
 	///bool operator<(const Sales_data &);
 	
 	Sales_data& operator+=(const Sales_data&);
-	friend bool operator==(const Sales_data&, const Sales_data&);
+	bool operator==( const Sales_data&);
 
 	string isbn() const { return bookNo; }
-	istream& read(istream&, Sales_data&);
-	ostream& print(ostream&, const Sales_data&);
+	friend istream& read(istream&, Sales_data&);
+	//fstream& read(fstream&, Sales_data&);
+	friend ostream& print(ostream&, const Sales_data&);
 
 	double avg_price() const;
 
@@ -37,7 +38,7 @@ private:
 	double sellingprice = 0.0;
 	double saleprice = 0.0;
 	double discount = 0.0;
-	double revenue;
+	double revenue = 0.0;
 };
 
 Sales_data::Sales_data(const string &book, unsigned num,
@@ -71,12 +72,12 @@ ostream& operator<<(ostream &os, Sales_data &s)
 	return os;
 }
 
-bool operator==(const Sales_data &lhs, const Sales_data &rhs)
+bool Sales_data::operator==(const Sales_data &rhs)
 {
-	return lhs.isbn() == rhs.isbn()
-		&& lhs.units_sold == rhs.units_sold
-		&& lhs.sellingprice == rhs.sellingprice
-		&& lhs.saleprice == rhs.saleprice;
+	return isbn() == rhs.isbn()
+		&& units_sold == rhs.units_sold
+		&& sellingprice == rhs.sellingprice
+		&& saleprice == rhs.saleprice;
 }
 
 Sales_data& Sales_data::operator+=(const Sales_data&s)
@@ -96,7 +97,7 @@ Sales_data add(const Sales_data &lhs, const Sales_data &rhs)
 	return sum;
 }
 
-istream & Sales_data::read(istream &is, Sales_data &s)
+istream & read(istream &is, Sales_data &s)
 {
 	is >> s.bookNo >> s.units_sold >> s.sellingprice >> s.saleprice;
 	if (is && s.sellingprice != 0)
@@ -108,7 +109,7 @@ istream & Sales_data::read(istream &is, Sales_data &s)
 }
 
 
-ostream& Sales_data::print(ostream &os, const Sales_data &s)
+ostream& print(ostream &os, const Sales_data &s)
 {
 	os << endl << "****************" << endl
 		<< "bookNo: " << s.isbn() << endl

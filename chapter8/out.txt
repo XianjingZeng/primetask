@@ -1,0 +1,48 @@
+
+****************
+bookNo: aa
+units_sold: 2
+sellingprice: 5
+saleprice: 4
+discount: 0.8
+***************
+
+****************
+bookNo: bb
+units_sold: 6
+sellingprice: 54
+saleprice: 47
+discount: 0.87037
+***************
+
+****************
+bookNo: cc
+units_sold: 2
+sellingprice: 12
+saleprice: 10
+discount: 0.833333
+***************
+
+****************
+bookNo: aa
+units_sold: 2
+sellingprice: 5
+saleprice: 4
+discount: 0.8
+***************
+
+****************
+bookNo: bb
+units_sold: 6
+sellingprice: 54
+saleprice: 47
+discount: 0.87037
+***************
+
+****************
+bookNo: cc
+units_sold: 2
+sellingprice: 12
+saleprice: 10
+discount: 0.833333
+***************

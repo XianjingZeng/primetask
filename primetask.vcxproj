@@ -154,8 +154,19 @@
     <ClInclude Include="chapter7\Window_mgr.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="chapter8\8_1.cpp" />
+    <ClCompile Include="chapter8\8_10.cpp" />
+    <ClCompile Include="chapter8\8_13.cpp" />
+    <ClCompile Include="chapter8\8_4.cpp" />
+    <ClCompile Include="chapter8\8_5.cpp" />
+    <ClCompile Include="chapter8\8_7.cpp" />
     <ClCompile Include="prime.cpp" />
     <ClCompile Include="chapter7\Sales_data.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="chapter8\data.txt" />
+    <Text Include="chapter8\out.txt" />
+    <Text Include="chapter8\phone.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
