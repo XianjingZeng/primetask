@@ -14,8 +14,8 @@ class Sales_data
 public:
 	Sales_data() {}
 	Sales_data(const string &book) :bookNo(book) {}
-	Sales_data(const string &book, const unsigned num,
-		const double sellp, const double salep);
+	Sales_data(const string &book, unsigned num,
+		double sellp, double salep);
 	Sales_data(istream &is) { is >> *this; }
 
 	friend istream& operator>>(istream &, Sales_data &);
@@ -40,8 +40,8 @@ private:
 	double revenue;
 };
 
-Sales_data::Sales_data(const string &book, const unsigned num,
-	const double sellp, const double salep):bookNo(book),units_sold(num),
+Sales_data::Sales_data(const string &book, unsigned num,
+	double sellp, double salep):bookNo(book),units_sold(num),
 	sellingprice(sellp),saleprice(salep)
 {
 	if (sellingprice != 0)
