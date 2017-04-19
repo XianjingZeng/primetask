@@ -53,6 +53,21 @@
     <ClCompile Include="chapter8\8_13.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="chapter9\9_1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter9\9_13.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter9\9_15.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter9\forward_listTest.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter9\vecCapacity.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="chapter8\data.txt" />

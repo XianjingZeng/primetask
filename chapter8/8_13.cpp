@@ -56,10 +56,10 @@ int readInf()
 }
 
 
-int main()
-{
-	readInf();
-
-	system("pause");
-	return 0;
-}
+//int main()
+//{
+//	readInf();
+//
+//	system("pause");
+//	return 0;
+//}

@@ -160,6 +160,11 @@
     <ClCompile Include="chapter8\8_4.cpp" />
     <ClCompile Include="chapter8\8_5.cpp" />
     <ClCompile Include="chapter8\8_7.cpp" />
+    <ClCompile Include="chapter9\9_1.cpp" />
+    <ClCompile Include="chapter9\9_13.cpp" />
+    <ClCompile Include="chapter9\9_15.cpp" />
+    <ClCompile Include="chapter9\forward_listTest.cpp" />
+    <ClCompile Include="chapter9\vecCapacity.cpp" />
     <ClCompile Include="prime.cpp" />
     <ClCompile Include="chapter7\Sales_data.cpp" />
   </ItemGroup>
