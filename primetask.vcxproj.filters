@@ -71,6 +71,9 @@
     <ClCompile Include="9_41.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="chapter10\lambda.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="chapter8\data.txt" />

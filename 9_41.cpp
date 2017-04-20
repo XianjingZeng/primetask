@@ -78,33 +78,33 @@ void prefixAndsuffix(string &s, const string &prefix, const string &suffix)
 	s.append(suffix);
 }
 
-int main()
-{
-	//stringVvec();
-
-	/*string s = "tho thru tho!";
-	cout << s << endl;
-
-	mod(s, "thru", "through");
-	cout << s << endl;
-
-	mod(s, "tho", "though");
-	cout << s << endl;
-
-	replace(s, "thru", "through");
-	cout << s << endl;
-
-	replace(s, "tho", "though");
-	cout << s << endl;*/
-
-	string s1 = "jim";
-	prefixAndsuffix(s1, "Mr.", "I");
-	cout << s1 << endl;
-
-	string s2 = "lily";
-	prefixAndsuffix(s2, "Mrs.", "II");
-	cout << s2 << endl;
-
-	system("pause");
-	return 0;
-}
+//int main()
+//{
+//	//stringVvec();
+//
+//	/*string s = "tho thru tho!";
+//	cout << s << endl;
+//
+//	mod(s, "thru", "through");
+//	cout << s << endl;
+//
+//	mod(s, "tho", "though");
+//	cout << s << endl;
+//
+//	replace(s, "thru", "through");
+//	cout << s << endl;
+//
+//	replace(s, "tho", "though");
+//	cout << s << endl;*/
+//
+//	string s1 = "jim";
+//	prefixAndsuffix(s1, "Mr.", "I");
+//	cout << s1 << endl;
+//
+//	string s2 = "lily";
+//	prefixAndsuffix(s2, "Mrs.", "II");
+//	cout << s2 << endl;
+//
+//	system("pause");
+//	return 0;
+//}
