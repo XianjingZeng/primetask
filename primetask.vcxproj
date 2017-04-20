@@ -154,6 +154,7 @@
     <ClInclude Include="chapter7\Window_mgr.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="9_41.cpp" />
     <ClCompile Include="chapter8\8_1.cpp" />
     <ClCompile Include="chapter8\8_10.cpp" />
     <ClCompile Include="chapter8\8_13.cpp" />
