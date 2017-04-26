@@ -68,10 +68,19 @@
     <ClCompile Include="chapter9\vecCapacity.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="9_41.cpp">
+    <ClCompile Include="chapter10\lambda.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="chapter10\lambda.cpp">
+    <ClCompile Include="chapter9\9_41.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter11\mapTest.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter11\listTest.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter11\multimapTest.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
@@ -79,5 +88,7 @@
     <Text Include="chapter8\data.txt" />
     <Text Include="chapter8\out.txt" />
     <Text Include="chapter8\phone.txt" />
+    <Text Include="chapter11\data.txt" />
+    <Text Include="chapter11\families.txt" />
   </ItemGroup>
 </Project>

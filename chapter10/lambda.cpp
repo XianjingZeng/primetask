@@ -19,11 +19,11 @@ void add(int a)
 
 
 
-int main()
-{
-	//lamb();
-	add(2);
-
-	system("pause");
-	return 0;
-}
+//int main()
+//{
+//	//lamb();
+//	add(2);
+//
+//	system("pause");
+//	return 0;
+//}

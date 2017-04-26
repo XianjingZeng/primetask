@@ -154,7 +154,10 @@
     <ClInclude Include="chapter7\Window_mgr.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="9_41.cpp" />
+    <ClCompile Include="chapter11\listTest.cpp" />
+    <ClCompile Include="chapter11\mapTest.cpp" />
+    <ClCompile Include="chapter11\multimapTest.cpp" />
+    <ClCompile Include="chapter9\9_41.cpp" />
     <ClCompile Include="chapter10\lambda.cpp" />
     <ClCompile Include="chapter8\8_1.cpp" />
     <ClCompile Include="chapter8\8_10.cpp" />
@@ -171,6 +174,8 @@
     <ClCompile Include="chapter7\Sales_data.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <Text Include="chapter11\data.txt" />
+    <Text Include="chapter11\families.txt" />
     <Text Include="chapter8\data.txt" />
     <Text Include="chapter8\out.txt" />
     <Text Include="chapter8\phone.txt" />
