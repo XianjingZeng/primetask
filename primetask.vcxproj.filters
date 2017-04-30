@@ -27,6 +27,15 @@
     <ClInclude Include="chapter7\Window_mgr.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="chapter12\myStrBlob.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter12\my_QueryResult.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter12\my_TextQuery.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="chapter7\Sales_data.cpp">
@@ -81,6 +90,18 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="chapter11\multimapTest.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter12\myStrBlobTest.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter12\sharedPtrTest.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter12\my_TextQuery.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter12\queryTest.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

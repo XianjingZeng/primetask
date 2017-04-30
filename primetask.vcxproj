@@ -148,6 +148,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="chapter12\myStrBlob.h" />
+    <ClInclude Include="chapter12\my_QueryResult.h" />
+    <ClInclude Include="chapter12\my_TextQuery.h" />
     <ClInclude Include="chapter7\Person.h" />
     <ClInclude Include="chapter7\Sales_data.h" />
     <ClInclude Include="chapter7\Screen.h" />
@@ -157,6 +160,10 @@
     <ClCompile Include="chapter11\listTest.cpp" />
     <ClCompile Include="chapter11\mapTest.cpp" />
     <ClCompile Include="chapter11\multimapTest.cpp" />
+    <ClCompile Include="chapter12\myStrBlobTest.cpp" />
+    <ClCompile Include="chapter12\my_TextQuery.cpp" />
+    <ClCompile Include="chapter12\queryTest.cpp" />
+    <ClCompile Include="chapter12\sharedPtrTest.cpp" />
     <ClCompile Include="chapter9\9_41.cpp" />
     <ClCompile Include="chapter10\lambda.cpp" />
     <ClCompile Include="chapter8\8_1.cpp" />
