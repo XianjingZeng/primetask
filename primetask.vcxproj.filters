@@ -36,6 +36,27 @@
     <ClInclude Include="chapter12\my_TextQuery.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="chapter15\Quote.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter15\Bulk_quote.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter15\Disc_quote.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter15\Limited_quote.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter15\Derive_quote.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter15\Derive_quote_usingConstructor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter15\Basket.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="chapter7\Sales_data.cpp">
@@ -102,6 +123,18 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="chapter12\queryTest.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter15\deriveQuoteTest.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter15\vectorQuoteTest.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter15\basketTest.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter15\Quote.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

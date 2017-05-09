@@ -151,10 +151,17 @@
     <ClInclude Include="chapter12\myStrBlob.h" />
     <ClInclude Include="chapter12\my_QueryResult.h" />
     <ClInclude Include="chapter12\my_TextQuery.h" />
+    <ClInclude Include="chapter15\Basket.h" />
+    <ClInclude Include="chapter15\Bulk_quote.h" />
+    <ClInclude Include="chapter15\Disc_quote.h" />
+    <ClInclude Include="chapter15\Derive_quote.h" />
+    <ClInclude Include="chapter15\Limited_quote.h" />
+    <ClInclude Include="chapter15\Quote.h" />
     <ClInclude Include="chapter7\Person.h" />
     <ClInclude Include="chapter7\Sales_data.h" />
     <ClInclude Include="chapter7\Screen.h" />
     <ClInclude Include="chapter7\Window_mgr.h" />
+    <ClInclude Include="chapter15\Derive_quote_usingConstructor.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="chapter11\listTest.cpp" />
@@ -164,6 +171,10 @@
     <ClCompile Include="chapter12\my_TextQuery.cpp" />
     <ClCompile Include="chapter12\queryTest.cpp" />
     <ClCompile Include="chapter12\sharedPtrTest.cpp" />
+    <ClCompile Include="chapter15\basketTest.cpp" />
+    <ClCompile Include="chapter15\deriveQuoteTest.cpp" />
+    <ClCompile Include="chapter15\Quote.cpp" />
+    <ClCompile Include="chapter15\vectorQuoteTest.cpp" />
     <ClCompile Include="chapter9\9_41.cpp" />
     <ClCompile Include="chapter10\lambda.cpp" />
     <ClCompile Include="chapter8\8_1.cpp" />

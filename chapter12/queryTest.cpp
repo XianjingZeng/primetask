@@ -18,18 +18,18 @@ void runQueries(ifstream &infile)
 	}
 }
 
-int main()
-{
-	string filename = "chapter11/data.txt";
-	ifstream infile;
-
-	if (!(infile.open(filename), infile))
-	{
-		cerr << "No input file!" << endl;
-		return EXIT_FAILURE;
-	}
-
-	runQueries(infile);
-	return 0;
-
-}
+//int main()
+//{
+//	string filename = "chapter11/data.txt";
+//	ifstream infile;
+//
+//	if (!(infile.open(filename), infile))
+//	{
+//		cerr << "No input file!" << endl;
+//		return EXIT_FAILURE;
+//	}
+//
+//	runQueries(infile);
+//	return 0;
+//
+//}
